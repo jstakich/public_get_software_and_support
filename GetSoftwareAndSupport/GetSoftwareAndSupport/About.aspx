@@ -351,10 +351,14 @@
             <p> &nbsp;&nbsp; We will design new , or make changes to existing windows based software <strong>( .Net framework - C#.Net and VB.Net )</strong>  for individuals and businesses for very competitive prices . We mainly focus on <strong>Console</strong> , <strong>Winforms</strong> ,  and <strong> ASP.net Web Form Applications</strong> .   </p>
                      
        
-            <p>
-             <p> &nbsp;&nbsp; <strong> Owner / CIO  </strong></p> 
-            <p> &nbsp;&nbsp; - <strong>Jeremy D. Stakich</strong>   <i style="font-size:72px" class="fa">&#xf08c;  <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/> </i>   </p>   
- 
+            <br />  <br />
+                    &nbsp;&nbsp;     
+                            <strong>
+                             
+                            </strong>
+                             &nbsp;&nbsp;     
+                        Owner / CIO   - <strong>Jeremy D. Stakich</strong>      <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/>     
+                   
          <%--<P>
                             <asp:LinkButton runat="server" 
                                 class="btn btn-link custom_ex_med_new_Active_u_menu_button fa" 

@@ -379,12 +379,13 @@
          <%--</asp:Panel>--%>  
      <asp:Panel ID="Panel2" runat="server" CssClass="Panel_Content_with_Textboxes"  Visible="true"        > 
         <div class="Panel_Content_with_Textboxes">
-                  <h1 class="text-center">Welcome to Version 3.12 !</h1>
+                  <h1 class="text-center">Welcome to Version 3.13 !</h1>
+             <h5 class="text-center">Last Update - 1/8/2022</h5>
           <h1 class="text-center">Get Software And Support.com </h1>
              
             <h2 class="text-center"> .Net Software Development</h2>
            <br>
-                  <br>  &nbsp;&nbsp; We use this site to publish APIs and Clickonce installs . If you need anything with regard to .Net please let us know.
+                  <br>  &nbsp;&nbsp;&nbsp;&nbsp; We use this site to publish APIs and Clickonce installs . If you need anything with regard to .Net please let us know.
              
            <br>  &nbsp;&nbsp; We will design new , or make changes to existing windows based software <strong>( .Net framework - C#.Net and VB.Net )</strong>  for individuals and businesses for very competitive 
            <br>  &nbsp;&nbsp;   prices . We mainly focus on <strong>Console</strong> , <strong>Winforms</strong> ,  and <strong> ASP.net Web Form Applications</strong> .    
@@ -396,9 +397,15 @@
 
                         <br>    &nbsp;&nbsp; If you need to update your .Net applications to target a newer framework or just need to make adjustments please let us know . No job is too small .    
      
-     
-                      <br>  &nbsp;&nbsp; - <strong>Owner / CIO  - Jeremy D. Stakich</strong>   <i style="font-size:72px" class="fa">&#xf08c;  <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/> </i>   
-
+       <br />  
+                       <br />   
+                    &nbsp;&nbsp;     
+                            <strong>
+                             
+                            </strong>
+                             &nbsp;&nbsp;     
+                        Owner / CIO   - <strong>Jeremy D. Stakich</strong>      <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/>     
+                   
              <br>
               
                 
@@ -420,14 +427,14 @@
             
         </div>
 
-             </asp:Panel>  
+              </asp:Panel> 
        
    <asp:Panel ID="Panel3" runat="server" CssClass="Panel_Content_with_Textboxes"  Visible="true"        > 
         <div class="Panel_Content_with_Textboxes">
-            <h2 class="text-center">Google Apps Scripting </h2>
+            <h2 class="text-center">Source Code on Github </h2>
            
-             <br> &nbsp;&nbsp;We also do a little Google Apps scripting.  
-         <br />  &nbsp;&nbsp; If you have the need to extend your Sheets , Docs , or Gmail let me know ...  <asp:LinkButton ID="LinkButton5" runat="server"  OnClientClick="https://en.wikipedia.org/wiki/Chrome_Remote_Desktop" PostBackUrl="\Contact"> <strong>Contact Us</strong> </asp:LinkButton> .  
+             <br> &nbsp;&nbsp;If you are interesed in the source code for recording MP4 videos , you can find it on our Github below.
+         <br />  &nbsp;&nbsp; <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="https://github.com/jstakich">https://github.com/jstakich</asp:HyperLink>
 
           
             <br />
@@ -435,6 +442,21 @@
         </div>
 
                </asp:Panel>  
+
+
+         <asp:Panel ID="Panel1" runat="server" CssClass="Panel_Content_with_Textboxes"  Visible="true"        > 
+        <div class="Panel_Content_with_Textboxes">
+            <h2 class="text-center">Google Apps Scripting </h2>
+           
+             <br> &nbsp;&nbsp;We also do a little Google Apps scripting.  
+         <br />  &nbsp;&nbsp; If you have the need to extend your Sheets , Docs , or Gmail let us know ...  <asp:LinkButton ID="LinkButton1" runat="server"  OnClientClick="https://en.wikipedia.org/wiki/Chrome_Remote_Desktop" PostBackUrl="\Contact"> <strong>Contact Us</strong> </asp:LinkButton> .  
+
+          
+            <br />
+            <br />
+        </div>
+
+               </asp:Panel> 
 
       <%--<asp:Panel ID="Panel4" runat="server" CssClass="Panel_Content_with_Textboxes"  Visible="true"        >--%> 
         <div class="Panel_Content_with_Textboxes">
@@ -547,7 +569,7 @@ Your browser does not support the video tag.
         
         <div>
             <div class="formDesign">
-                     &nbsp;&nbsp;     <h1 class="text-center">Comments</h1>
+                     &nbsp;&nbsp;     <h1 class="text-center">Recent Comments</h1>
                 <p> <strong>
               &nbsp;&nbsp;   <asp:Label ID="lbl_comments" runat="server" Text="Please leave a comment."></asp:Label>
                     </strong>

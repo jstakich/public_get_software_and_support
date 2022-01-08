@@ -421,7 +421,8 @@ display: inline-block;
       border-radius: 20px  !important; 
      transition: all 0.3s ease 0s  !important; 
        Round it End */
-   
+    border-radius: 20px  !important; 
+     transition: all 0.3s ease 0s  !important; 
 
   background-color:#f5f5f5 !important  ; 
  border-color: #6c757d !important ; 

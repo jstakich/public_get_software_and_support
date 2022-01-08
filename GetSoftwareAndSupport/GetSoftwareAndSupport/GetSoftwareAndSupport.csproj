@@ -256,12 +256,12 @@
     <Content Include="app.html" />
     <Content Include="icon\denied2.jpg" />
     <Content Include="jeremy\CSS\main.css" />
-    <Content Include="jeremy\html\index.html" />
     <Content Include="jeremy\js\adapter-latest.js" />
     <Content Include="jeremy\js\main.js" />
     <Content Include="jeremy\js\Video.js" />
     <Content Include="jeremy\test\test.js" />
     <Content Include="MyRecordedVideos\test.txt" />
+    <Content Include="MySQL_Database_Info_Setup\MySQL_Database_Info_Setup.txt" />
     <Content Include="MyVideos.aspx" />
     <Content Include="PCI_Data.aspx" />
     <Content Include="Record_MP4.aspx" />
@@ -443,6 +443,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="files\Videos\" />
+    <Folder Include="jeremy\html\" />
     <Folder Include="jeremy\NewFolder1\" />
     <Folder Include="Uploads\" />
     <Folder Include="Videos2\" />

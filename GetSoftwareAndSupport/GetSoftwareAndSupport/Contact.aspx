@@ -348,74 +348,64 @@
       <h3 class="text-center">Contact us</h3>
 
 
-         <div class="container py-5">
-    <div class="row">
-        <div class="col-md-10 mx-auto">
-           <%-- <form>--%>
-                <div class="form-group row">
-                    <div class="col-sm-6">
-                         <strong> <label for="inputAddressLine1"> </label></strong>
-                        
-                    </div>
-                    <div class="col-sm-6">
-                         <p>1-423-227-7681</p>
 
-    <p> <strong> <a href ="tel:1-423-227-7681">
-         <i class='fa fa-phone'> <img src="/pics/phone.png"  title="Click to call Jeremy" alt="Click to call Jeremy . " style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="20" width="20"></i>&nbsp;&nbsp;Click to call Jeremy . </a> </strong></p>
- 
 
-                      
-
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col-sm-6">
-                      
-                        <p>
+        
+      
      
- 
-Soddy Daisy, TN 
-37379
- 
-         
-       </p> 
-                    </div>
-                    <div class="col-sm-6">
-                        
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col-sm-6">
+      
+                     
+                                
+                                        
+                &nbsp;&nbsp; <i class='fa fa-phone'>&nbsp;&nbsp;
+                      <strong>
+                    &nbsp;&nbsp; <label for="input_number">Phone Number - </label> 
+                          </strong>&nbsp;&nbsp;1-423-227-7681
+                       <br />
+                          
+                     <br />
+                         <a href ="tel:1-423-227-7681">  <img src="/pics/phone.png"  title="Click to call Jeremy" alt="Click to call Jeremy . " style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="20" width="20">&nbsp;&nbsp;Click to call Jeremy . </a> 
+                  </i>
                        
-             <p>Owner / CIO   - <strong>Jeremy D. Stakich</strong>   <i style="font-size:72px" class="fa">&#xf08c;  <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/> </i>   </p>   
- 
-                        
-                    </div>
-                    <div class="col-sm-3">
-                           <label for="inputPostalCode"> </label>
-                        <label for="inputPostalCode"> </label> 
-                    </div>
-                    <div class="col-sm-3">
-                        <label for="inputPostalCode"> </label>
-                        <label for="inputPostalCode"> </label> 
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <div class="col-sm-6">
-                           <label for="inputPostalCode"> </label>
-                        <label for="inputPostalCode"> </label> 
 
-                    </div>
-                    <div class="col-sm-6">
-                         <label for="inputPostalCode"> </label>
-                        <label for="inputPostalCode"> </label> 
-                    </div>
-                </div>
-                
-           <%-- </form>--%>
-        </div>
-    </div>
-</div>
+                      
+ 
+                                        
+                        <br />
+                         <br />
+ 
+                         <br />
+                    
+                        
+                     &nbsp;&nbsp;    <i class='fa fa-address-card'>&nbsp;&nbsp;
+                            <strong>
+                            &nbsp;&nbsp;<label for="input_address">Address - </label>
+                            </strong>&nbsp;&nbsp;Soddy Daisy, TN 37379 
+                             </i>&nbsp;&nbsp;
+                     
+         <br />  <br />
+                    &nbsp;&nbsp;     <p>&nbsp;&nbsp;<i class='fa fa-user'>&nbsp;&nbsp;
+                            <strong>
+                            
+                            </strong>
+                             &nbsp;&nbsp;     
+                        Owner / CIO   - <strong>Jeremy D. Stakich</strong>      <img alt="" style="border-style: solid; border-color: #4285F4 ; border-width: medium;" height="50" width="50" title="Click to view Jeremy's Profile on LinkedIn ." onClick="Go_To_Linked_In()" src="/pics/jeremys1.jpg"/>     
+                        </i>
+                             
+               </p> 
+               
+
+
+  
+                 
+               
+         
+  
+ 
+
+        
+
+   
 
 
 
@@ -427,8 +417,7 @@ Soddy Daisy, TN
  
   
 
-            
-        </i>
+         
   
  
   

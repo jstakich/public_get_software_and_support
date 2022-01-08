@@ -1,0 +1,115 @@
+ -----------------------------
+
+create table profile_images( 
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY , 
+email VARCHAR(255) NOT NULL , 
+The_Image MEDIUMBLOB   NOT NULL ,
+Block int(11) NOT NULL,  
+the_date TIMESTAMP NOT NULL )
+
+ 
+CREATE INDEX index_profile_images ON profile_images (id, email ,  Block , the_date  );
+ 
+
+	  -----------------------------
+
+create table tbl_Comment5( 
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY , 
+Name VARCHAR(255) NOT NULL , 
+Email VARCHAR(255) NULL , 
+Comment VARCHAR(255) NOT NULL , 
+Block int(11) NOT NULL,  
+Comment_Date TIMESTAMP NOT NULL )
+
+
+CREATE INDEX index_tbl_Comment5 ON tbl_Comment5 (Name, Email  , Block , Comment_Date  );
+
+ -----------------------------
+ 
+
+create table getsoftware_users3( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY , 
+email VARCHAR(255) NOT NULL , 
+password VARCHAR(255) NOT NULL , 
+password_temp VARCHAR(255)  NULL , 
+password_send INT  NULL , 
+first_name VARCHAR(255) NOT NULL , 
+middle_name VARCHAR(255) NOT NULL , 
+last_name VARCHAR(255) NOT NULL , 
+phone_number VARCHAR(255), 
+Security_Question MEDIUMTEXT NOT NULL , 
+Security_Answer MEDIUMTEXT NOT NULL , 
+last_Login_date TIMESTAMP NOT NULL, 
+the_date TIMESTAMP NOT NULL )
+ 
+
+CREATE INDEX index_getsoftware_users3 ON getsoftware_users3 (id , email , password , password_temp , password_send, first_name, middle_name , last_name , phone_number , Security_Question , Security_Answer , last_Login_date , the_date  );
+CREATE INDEX getsoftware_users3_index ON getsoftware_users3 (id )
+CREATE INDEX getsoftware_users3_email  ON getsoftware_users3 (email  )
+CREATE INDEX getsoftware_users3_password   ON getsoftware_users3 (password   )
+CREATE INDEX getsoftware_users3_password_temp   ON getsoftware_users3 (password_temp   )
+CREATE INDEX getsoftware_users3_password_send   ON getsoftware_users3 (password_send   )
+CREATE INDEX getsoftware_users3_first_name   ON getsoftware_users3 (first_name   )
+CREATE INDEX getsoftware_users3_middle_name   ON getsoftware_users3 (middle_name   )
+CREATE INDEX getsoftware_users3_last_name    ON getsoftware_users3 (last_name    )
+CREATE INDEX getsoftware_users3_phone_number    ON getsoftware_users3 (phone_number    )
+CREATE INDEX getsoftware_users3_Security_Question     ON getsoftware_users3 (Security_Question     )
+CREATE INDEX getsoftware_users3_Security_Answer     ON getsoftware_users3 (Security_Answer     )
+CREATE INDEX getsoftware_users3_last_Login_date     ON getsoftware_users3 (last_Login_date     )
+CREATE INDEX getsoftware_users3_the_date     ON getsoftware_users3 (the_date     )
+
+ -----------------------------
+
+create table Project1(  email VARCHAR(255) NOT NULL  )
+
+                    
+
+CREATE INDEX indexProject1 ON Project1(email     )
+
+ -----------------------------
+
+getsoftware_Links7
+
+create table getsoftware_Links7( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY , 
+Email varchar(255) NOT NULL , 
+link VARCHAR(255), 
+folder varchar(500) NOT NULL , 
+Organization varchar(255) NOT NULL , 
+Block int(11) NOT NULL, 
+the_date TIMESTAMP NOT NULL )
+
+CREATE INDEX Index_getsoftware_Links7_id    ON getsoftware_Links7 (id    )
+ CREATE INDEX Index_getsoftware_Links7_Email   ON getsoftware_Links7 (Email   )
+ CREATE INDEX Index_getsoftware_Links7_link   ON getsoftware_Links7 (link   )
+ CREATE INDEX Index_getsoftware_Links7_folder   ON getsoftware_Links7 (folder   )
+CREATE INDEX Index_getsoftware_Links7_Organization   ON getsoftware_Links7 (Organization   )
+CREATE INDEX Index_getsoftware_Links7_Block   ON getsoftware_Links7 (Block   )
+CREATE INDEX Index_getsoftware_Links7_the_date   ON getsoftware_Links7 (the_date   )
+
+
+
+
+ -----------------------------
+
+create table tbl_pci_compliant_Data2( 
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY , 
+column1 MEDIUMTEXT NULL , 
+column2 MEDIUMTEXT NULL ,
+column3 MEDIUMTEXT NULL , 
+column4 MEDIUMTEXT NULL , 
+column5 MEDIUMTEXT NULL ,
+column6 MEDIUMTEXT NULL ,
+column7 MEDIUMTEXT NULL ,
+column8 MEDIUMTEXT NULL ,
+column9 MEDIUMTEXT NULL ,
+doc_name VARCHAR(255)  NOT NULL , 
+user_name VARCHAR(255)  NOT NULL , 
+the_date TIMESTAMP NOT NULL )
+
+
+CREATE INDEX Index_tbl_pci_compliant_Data2_id   ON tbl_pci_compliant_Data2 (id  ) 
+CREATE INDEX Index_tbl_pci_compliant_Data2_user_name   ON tbl_pci_compliant_Data2 (user_name  ) 
+CREATE INDEX Index_tbl_pci_compliant_Data2_the_date   ON tbl_pci_compliant_Data2 (the_date  ) 
+
+
+
+

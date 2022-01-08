@@ -2607,14 +2607,19 @@ namespace GetSoftwareAndSupport
 
         protected void OnPageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-            GridView1.PageIndex = e.NewPageIndex;
-            this.BindGrid();
+            //if (!this.IsPostBack)
+            //{
+                GridView1.PageIndex = e.NewPageIndex;
+                this.BindGrid();
+           // }
         }
 
         protected void OnPaging(object sender, GridViewPageEventArgs e)
         {
-            GridView1.PageIndex = e.NewPageIndex;
+           
+                GridView1.PageIndex = e.NewPageIndex;
             this.BindGrid();
+           
         }
 
 
