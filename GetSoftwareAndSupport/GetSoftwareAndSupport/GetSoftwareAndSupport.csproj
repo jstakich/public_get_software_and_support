@@ -261,6 +261,7 @@
     <Content Include="jeremy\js\main.js" />
     <Content Include="jeremy\js\Video.js" />
     <Content Include="jeremy\test\test.js" />
+    <Content Include="MyRecordedVideos\test.txt" />
     <Content Include="MyVideos.aspx" />
     <Content Include="PCI_Data.aspx" />
     <Content Include="Record_MP4.aspx" />
@@ -443,7 +444,6 @@
   <ItemGroup>
     <Folder Include="files\Videos\" />
     <Folder Include="jeremy\NewFolder1\" />
-    <Folder Include="MyRecordedVideos\" />
     <Folder Include="Uploads\" />
     <Folder Include="Videos2\" />
   </ItemGroup>
