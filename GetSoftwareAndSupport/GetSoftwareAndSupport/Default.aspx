@@ -379,7 +379,7 @@
          <%--</asp:Panel>--%>  
      <asp:Panel ID="Panel2" runat="server" CssClass="Panel_Content_with_Textboxes"  Visible="true"        > 
         <div class="Panel_Content_with_Textboxes">
-                  <h1 class="text-center">Welcome to Version 3.13 !</h1>
+                  <h1 class="text-center">Welcome to Version 3.15 !</h1>
              <h5 class="text-center">Last Update - 1/8/2022</h5>
           <h1 class="text-center">Get Software And Support.com </h1>
              
@@ -473,7 +473,7 @@
                  <%--<div style='  overflow-y: scroll; overflow-x: scroll;'>--%>  
                        
                &nbsp;&nbsp;  <video id="123" controls playsinline autoplay muted loop width="400" height="350"   " >
-  <source src="https://getsoftwareandsupport.com/files/Videos/update1.mp4"    type="video/mp4"  >
+  <source src="https://getsoftwareandsupport.com/files/Videos/update2.mp4"    type="video/mp4"  >
   
 Your browser does not support the video tag.
 </video>

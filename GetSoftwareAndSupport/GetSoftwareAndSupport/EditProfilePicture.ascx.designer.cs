@@ -24,6 +24,60 @@ namespace GetSoftwareAndSupport
         protected global::System.Web.UI.UpdatePanel updPnl;
 
         /// <summary>
+        /// LinkButton_loginbutton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton_loginbutton;
+
+        /// <summary>
+        /// LinkButton_logoutbutton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton_logoutbutton;
+
+        /// <summary>
+        /// LinkButton_editaccountbutton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton LinkButton_editaccountbutton;
+
+        /// <summary>
+        /// Button2sss control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Button2sss;
+
+        /// <summary>
+        /// btnabout1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton btnabout1;
+
+        /// <summary>
+        /// Button1a control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LinkButton Button1a;
+
+        /// <summary>
         /// Panel1 control.
         /// </summary>
         /// <remarks>

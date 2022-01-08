@@ -171,6 +171,37 @@ namespace GetSoftwareAndSupport
 
             }
 
+
+            try
+            {
+                LinkButton_editaccountbutton.Visible = false;
+                LinkButton_logoutbutton.Visible = false;
+                LinkButton_loginbutton.Visible = true;
+
+                if (Session["Logged_in"] != null)
+                {
+                    string str_read_login_var = Convert.ToString(Session["Logged_in"]);
+
+                    //////////////////////////////// If User is logged in 
+                    if (str_read_login_var == "True")
+                    {
+
+                        LinkButton_editaccountbutton.Visible = true;
+                        LinkButton_logoutbutton.Visible = true;
+                        LinkButton_loginbutton.Visible = false;
+
+
+                    }
+                }
+
+
+            }
+            catch (Exception ex)
+            {
+                string aa = ex.ToString();
+
+            }
+
         }
 
         private static string Does_email_exist(MySql.Data.MySqlClient.MySqlConnection The_connection, string The_Email)
