@@ -9,7 +9,8 @@ https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API
 https://developers.google.com/web/updates/2016/01/mediarecorder
 https://github.com/mdn/content/blob/main/files/en-us/web/api/mediarecorder/mediarecorder/index.md
 
-
+You can see the app recording videos at 
+https://getsoftwareandsupport.com/
 
 1. Add all needed references in Nuget package manager.
 
