@@ -1,5 +1,5 @@
 # public_get_software_and_support
-Record mp4 video using Javascript . Upload it and the link using Javascript/C#/ASP.net. Store the links in a MySQL Database.
+Record video in an mp4 format using Javascript and upload it using Javascript/C#/ASP.net. Store the links in a MySQL Database.
 
 This is a C#.net Web Form Application that records video in an mp4 format using Javascript and uploads it. It stores the links in a MySQL database 
 and displays the results in a datagridview.

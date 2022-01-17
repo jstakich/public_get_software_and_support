@@ -16,11 +16,13 @@ using System.Web;
 
 public class Connection_Strings
 {
-    public string prod_conn_string = "Server=127.0.0.0;Port=3306;Database=database;Uid=username;Pwd=password; ";
-    public string PCIDATA_prod_conn_string = "Server=127.0.0.0;Port=3306;Database=database;Uid=username;Pwd=password; ";
 
 
+    public string prod_conn_string = "Server=197.0.0.0;Port=3306;Database=database;Uid=username;Pwd=password;";
+    public string PCIDATA_prod_conn_string = "Server=197.0.0.0;Port=3306;Database=database;Uid=username;Pwd=password;";
 
+
+    ///nothing
 
 
 }
