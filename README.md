@@ -51,15 +51,15 @@ d. const url = textboxurlvalue + "?name=" + textboxvalue;
 e. That is then sent to  Video_Uploader.ashx and the link is written to a MYSQL database and the file is uploaded.
 
 
-7. You won't be able to send emails until you set the variables for your server. You will need to put this section
+7. You won't be able to send emails until you set the variables for your server. You will need to put the <mailSettings> section
 in your web config. The entire web config can be found in the file 'Backup_prod_web_config.txt
- <system.net>
+  <system.net>
     <mailSettings>
-      <smtp from="jeremystakich@getsoftwareandsupport.com">
-        <network host="relay-hosting.secureserver.net" port="25" />
+     <smtp from="jeremystakich@getsoftwareandsupport.com">
+      <network host="relay-hosting.secureserver.net" port="25" />
         <!--	<network host="smtp.gmail.com" port="587" /> -->
-      </smtp>
-    </mailSettings>
+     </smtp>
+     </mailSettings>
   </system.net>
 
 
